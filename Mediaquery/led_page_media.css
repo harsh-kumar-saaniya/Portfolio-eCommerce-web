@@ -1,0 +1,253 @@
+/* ============================================
+    Media Query for mobile responsiveness 
+        fully reponsive
+============================================ */
+
+
+
+/* ============================================
+Extra large devices (large desktops, 1200px and up) 
+============================================ */
+
+@media (max-width: 1200px) {
+    
+    .Search_place{
+        width: 450px !important;
+    }
+    i.fa-search{
+        position: relative !important;
+        right: 55px !important;
+        /* margin-right: 255px !important; */
+    }
+    div.side_bar{
+        width: 300px;
+    }
+}
+
+/* ============================================
+ Large devices (desktops, 992px and up) 
+============================================ */
+@media (max-width: 992px) {
+
+    .Search_place{
+        width: 350px !important;
+    }
+    i.fa-search{
+        position: relative;
+        right: 155px !important;
+    }
+      img.deals_images{
+        width:290px ;
+        height:150px ;
+    }
+    div.side_bar{
+        width: 200px;
+    }
+}
+/* ============================================
+ Medium devices (tablets, 768px and up) 
+============================================ */
+
+@media (max-width: 768px) {
+
+    .Search_place{
+        width: 250px !important;
+    }
+    i.fa-search{
+        position: relative;
+        right: 255px !important;
+    }
+    img.deals_images{
+        width:200px ;
+        height: 150px;
+    }
+    h4.logo_heading{
+
+        position: relative;
+        left: 0px;
+        }
+
+    ul.nav-tabs{
+        display: none;
+    }
+
+    .checkbtn{
+        display: block;
+        left: 300px;
+        color: red;
+    
+    }
+    div.side_bar{
+        width: 150px;
+    }
+    img.product_image{
+        width:100px ;
+        height: 230px;
+    }
+    span.specification_name > h2
+    {
+        top: -200px;
+        font-size: 18px;
+    }
+    div.product_detail{
+        left: 50px;
+        /* bottom: 185px; */
+        font-size: 15px;
+    }
+    div.product_detail >h5{
+        color: aqua;
+        /* font-size: 17px; */
+        position: relative;
+        /* margin-left: 50%; */
+        left: 50px;
+
+    }
+    div.purchasing_buttons{
+        bottom: 160px;
+        right: 180px;
+    }
+    div.more_product_details{
+        right: 100px;
+    }
+    #contact-section .contact-form{
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+      #contact-section .submit{
+
+        width: 60%;
+      }
+   
+}
+/* ============================================
+ for mobile screen and small size  
+============================================ */
+
+@media (max-width: 576px) {
+
+    
+    .Search_place{
+        width: 230px !important;
+       
+    }
+    i.fa-search{
+        position: relative;
+        right: 275px !important;
+    }
+    img.deals_images{
+        width:150px ;
+        height: 120px;
+    }
+    .checkbtn{
+        display: block;
+        left: 100px;
+        color: red;
+    
+    }
+    div.side_bar{
+        width: 100px;
+    }
+ 
+}
+/* ============================================
+Responsiveness around (436px) 
+============================================ */
+
+@media (max-width: 436px) {
+    h4.logo_heading{
+
+        position: relative;
+        right: -40px;
+        font-size: 18px;
+        }
+    span.codr{
+        position: relative;
+        display: block;
+        bottom: 30px;
+    }
+    .checkbtn{
+        display: block;
+        right: 600px;
+        color: red;
+    }
+    div.side_bar{
+        width: 0px;
+    }
+
+}
+
+/* ============================================
+Responsiveness for extra small device 
+============================================ */
+
+@media (max-width: 300px) {
+    .Search_place{
+        width: 200px !important;
+    }
+    i.fa-search{
+        position: relative;
+        right: 300px !important;
+    }
+    img.first_items{
+        width:180px ;
+        height: 100px;
+    }
+    img.deals_images{
+        width:80px ;
+        height: 70px;
+    }
+    
+}
+/* ============================================
+Responsiveness for different mobile screen size 
+============================================ */
+
+
+@media (max-width: 360px) {
+
+    img.product_image{
+        width:130px ;
+        height: 180px;
+    }
+    span.specification_name > h2
+    {
+        top: -170px;
+        left: 20px;
+        font-size: 15px;
+
+    }
+    div.product_detail >h5{
+        color: aqua;
+        position: relative;
+        bottom: -20px;
+        font-size: 15px;
+        right: 10px;
+        padding-bottom: 20px;
+    }
+    div.product_detail{
+        bottom: 185px;
+        font-size: 14px;
+        padding-left: 110px;
+        
+    }
+    div.purchasing_buttons{
+        bottom: 180px;
+        padding: 0px !important;
+        /* right: 180px; */
+        left: 0px;
+    } 
+    .sale_buttons{
+        padding: 5px 10px 5px 10px !important;
+    }
+    
+    div.more_product_details{
+        left: -0px !important;
+        width: 100% !important;
+        /* bottom: 50px !important; */
+        margin-bottom: 10% !important;
+    }
+    .copyright_update h6{
+        font-size:14px;
+    }
+}

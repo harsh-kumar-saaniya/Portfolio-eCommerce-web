@@ -1,0 +1,370 @@
+/* ============================================
+meida query for adjustment of all devices
+============================================ */
+
+/* ============================================
+Extra large devices (large desktops, 1200px and up) 
+============================================ */
+
+@media (max-width: 1200px) {
+   
+    .cheack{
+        background-color: chartreuse;
+    }
+    div.background_image{
+        width: 100%;
+        height: 600;
+    }
+    div.background_image{
+      width: 100%;
+    }
+    .project_details{
+        width: 100%;
+        height: 600px;
+    }
+    div.circle1:hover
+    {
+      clip-path:circle(1300px at 0 0);
+    }
+    ul.list{
+      margin-left: 500px;
+    }
+}
+
+
+/* ============================================
+  Large devices (desktops, 992px and up
+============================================ */
+
+
+
+
+@media (max-width: 992px) {
+  
+  div.background_image{
+    width: 1000px;
+    height: 600px;
+
+  }
+  div.background_image{
+    width: 100%;
+    height: 700px;
+  }
+  div.Project1_detail{
+      margin-left: 100px;
+      /* height: 400px; */
+      /* margin-left: 80px; */
+  }
+  img.project_image_1{
+    width:270x;
+    height:250px;
+    /* padding: 0; */
+    padding-right: 0px;
+  }
+  div.overlay{
+      width:270x;
+      height:250px;
+    
+  }
+  div.img_overlay:hover .overlay{
+    width:270x;
+    height:250px;
+
+  }
+
+  ul.list{
+    margin-left: 200px;
+  }
+  .navbar-toggler{
+    position: relative !important;
+    right: 70px !important;
+  }
+  div.navbar-nav{
+    display: block;
+  }
+  ul.list{
+    display: block !important;
+    list-style: square;
+    background-color: aqua;
+  }
+  li.list_items{
+    float: right;
+    display: block  !important;
+    background-color: red;
+  }
+  li.list_items a{
+    display: block !important;
+    float: right;
+    /* background-color: blue; */
+  }
+}
+
+/* ============================================\
+ Medium devices (tablets, 768px and up)
+============================================ */
+
+
+
+@media (max-width: 786px) {
+  
+  div.background_image{
+    width: 800px;
+    height: 600px;
+}
+div.background_image{
+  width: 100%;
+  /* height: 700px; */
+}
+  span.name_style1{
+      text-align: left;
+      position: relative;
+      right: 110px;
+      
+  }
+  span.name_style2{
+    text-align: left;
+    position: relative;
+    right: 110px;
+    
+}
+  div.line{
+    position: relative;
+    left: -35px;
+  }
+  .btn1{
+    position: relative;
+    left: 0px;
+  }
+  .btn2{
+    position: relative;
+    left: 0px;
+  }
+
+  div.Project1_detail{
+    margin-left: 0px;
+    
+}
+
+#contact-section .contact-form{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+#contact-section .submit{
+
+  width: 60%;
+}
+.navbar-toggler{
+  position: relative;
+  right: 100px;  
+}
+
+}
+
+
+/* ============================================
+ for mobile and ipad size devices which has (576ox)
+============================================ */
+
+@media (max-width: 576px) {
+  
+  .background_image{
+    width: 600px;
+    height: 500px;
+}
+div.background_image{
+  width: 100%;
+  height: 700px;
+}
+  span.name_style1{
+    text-align: left;
+    position: relative;
+    right: 100px;
+  }
+
+  span.name_style2{
+    text-align: left;
+    position: relative;
+    right: 130px;
+    
+}
+  div.line{
+    position: relative;
+    left: -55px;
+  }
+  .btn1{
+    position: relative;
+    left: 120px;
+  }
+  .btn2{
+    position: relative;
+    left: 130px;
+  }
+  div.project_image_2{
+    width: 300px;
+    height: 300px;
+  }
+  .project_details{
+    width: 100%;
+    height: 250px;
+  }  
+  div.circle1:hover
+    {
+      clip-path:circle(1300px at 0 0);
+    }
+    .navbar-toggler{
+      position: relative !important;
+      right: 250px !important;  
+    }
+    
+}
+
+/* ============================================
+  styling for extra small size devices around (450px)
+============================================ */
+
+
+@media (max-width: 450px) {
+  
+  
+  .background_image{
+    width: 400px;
+    height: 100px;
+  }
+  div.background_image{
+    width: 100%;
+    height: 700px;
+  }
+  span.heading_name{
+      position: relative;
+      right: 50px;
+      margin-right: 50px;
+      left: 0px;
+      justify-content: left;
+      width: 350px;
+
+  }
+
+  span.name_style1{
+    text-align: left;
+    position: relative;
+    right: 40px;
+  }
+
+  span.name_style2{
+    text-align: left;
+    position: relative;
+    right: 30px;
+    
+}
+  div.line{
+    position: relative;
+    right: 100px;
+    
+  }
+  .btn1{
+    position: relative;
+    left: 5px;
+  }
+  .btn2{
+    position: relative;
+    left: 5px;
+  }
+ 
+  img.project_image_1{
+    width:370px ;
+    height: 250px;
+}
+  div.overlay{
+    width:370px;
+    height: 250px;
+
+  }
+  div.img_overlay:hover .overlay{
+    width: 301px;
+    height: 191px;
+
+  }
+  .img_button{
+    top: 81px;
+    left: 89px;
+  }
+
+  div.project_image_2{
+    width: 50px;
+    height: 200px;
+  }
+  .navbar-toggler{
+    position: relative !important;
+    right: 360px !important;  
+  }
+
+}
+/* ============================================
+  styling for extra small size devices 
+  like mini mobile and other devices
+============================================ */
+
+@media (max-width: 450px) {
+    img.project_image_1{
+      width:300px;
+      height:190px;
+    }
+    
+    img.project_image_2{
+      width: 277px;
+      height: 401px;
+  }
+
+  div.overlay_project_2{
+    width: 277px;
+    height: 401px;
+
+  }
+  div.img_overlay2:hover .overlay_project_2{
+    width: 277px;
+    height: 401px;
+
+}
+.img_button2{
+  position: absolute;
+  top: 184px;
+  left: 78px;
+}
+
+  img.project_image_3{
+      width: 350px;
+      height: 250px;
+    }
+
+
+    div.overlay_project_3{
+      width: 350px;
+      height: 250px;
+      background-color: #a8a3a3f7;
+      position: absolute;
+      top: 0;
+      opacity: 0;
+      transition: 0.5s;
+  
+  }
+  div.img_overlay3:hover .overlay_project_3{
+    width: 350px;
+    height: 250px;
+    background-color: rgba(211, 203, 203, 0.7);
+    opacity: 1;
+  }
+
+  .img_button3{
+    position: relative;
+    top:110px;
+    left: 120px;
+}
+
+    .navbar-toggler{
+      position: relative !important;
+      right: 500px !important;  
+    }
+}
+
+
